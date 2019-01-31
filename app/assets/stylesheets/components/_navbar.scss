@@ -1,69 +1,100 @@
 /* Main navbar */
-.navbar-wagon {
-  box-shadow: 0 1px 5px 0 rgba(0,0,0,0.07),0 1px 0 0 rgba(0,0,0,0.03);
+.navbar-hoxton {
   background: white;
   transition: all 0.3s ease;
-  height: 70px;
-  padding: 0px 30px;
+  height: 128px;
+  padding: 0px 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 0px 1px 10px #999;
 }
 
 /* Logo */
-.navbar-wagon-brand img {
-  height: 50px;
+.navbar-hoxton-brand img {
+  height: 90px;
+  padding: 5px 5px;
 }
-
-/* User Avatar */
-.navbar-wagon .avatar {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-}
-
 /* Right section */
-.navbar-wagon-right {
+.navbar-hoxton-right {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 /* Basic navbar item */
-.navbar-wagon-item {
+.navbar-hoxton-item {
   cursor: pointer;
   padding: 0 20px;
 }
 
 /* Navbar link */
-.navbar-wagon-link {
-  color: #616668;
-  font-size: 14px;
-}
-.navbar-wagon-link:hover {
-  color: #da552f;
+.navbar-hoxton-link {
+  font-family: $main-font;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  position: relative;
   text-decoration: none;
+  color: $third-color;
+  padding: 50px 30px;
+
+  &:active,
+  &:visited {
+    color: $third-color;
+    text-decoration: none;
+  }
+}
+
+.hoxton-link-hover {
+    &:after {
+        content:'';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: $primary-color;
+        transform: scaleX(0);
+        transform-origin: bottom right;
+        transition: transform 0.3s;
+    }
+
+    &:hover {
+        color: $primary-color;
+        text-decoration: none;
+        &:after {
+            transform-origin: bottom left;
+            transform: scaleX(1);
+        }
+    }
 }
 
 /* Dropdown menu */
-.navbar-wagon-dropdown-menu {
+.navbar-hoxton-dropdown-menu {
   margin-top: 15px;
   box-shadow: 1px 1px 4px #E6E6E6;
   border-color: #E6E6E6;
 }
-.navbar-wagon-dropdown-menu li > a {
+
+.fa-bars {
+  color: white;
+  font-size: 30px;
+}
+
+.navbar-hoxton-dropdown-menu li > a {
   transition: color 0.3s ease;
   font-weight: lighter !important;
   color: #999999 !important;
-  font-size: 15px !important;
+  font-size: 18px !important;
   line-height: 22px !important;
   padding: 10px 20px;
 }
-.navbar-wagon-dropdown-menu li > a:hover {
+.navbar-hoxton-dropdown-menu li > a:hover {
   background: transparent !important;
   color: black !important;
 }
-.navbar-wagon-dropdown-menu:before {
+.navbar-hoxton-dropdown-menu:before {
   content: ' ';
   height: 10px;
   width: 10px;
@@ -74,4 +105,5 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+  border-radius: 3px;
 }

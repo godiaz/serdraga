@@ -1,0 +1,7 @@
+# config/meta.yml
+
+meta_product_name: "SERDRAGA"
+meta_title: "SERDRAGA - Servicios de Dragados y Construcciones"
+meta_description: "SERDRAGA se dedica a proveer servicios de dragado y construcciones."
+meta_image: "meta-image.png"                       # should exist in `app/assets/images/`
+# twitter_account: "@product_twitter_account"   # required for Twitter Cards
