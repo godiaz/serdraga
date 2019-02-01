@@ -1,10 +1,10 @@
 .card {
-  width: 380px;
+  width: 360px;
   margin: 100px 45px 70px 45px;
 
   &_title-and-image {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     padding-bottom: 30px;
 
@@ -28,6 +28,7 @@
     color: $third-color;
     font-size: $p-size;
     line-height: 22px;
+    text-align: justify;
   }
 
   &_button {
@@ -52,4 +53,244 @@
 
   }
 
+}
+
+@media only screen and (max-width: 1412px) {
+
+    .card {
+      width: 340px;
+      margin: 100px 45px 70px 45px;
+
+      &_title-and-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 30px;
+
+        & img {
+
+        }
+
+        & h4 {
+          font-family: $main-font;
+          font-weight: 500;
+          color: $secondary-color;
+          font-size: 18px;
+          margin: 0;
+        }
+
+      }
+
+      &_text {
+        font-family: $main-font;
+        font-weight: 300;
+        color: $third-color;
+        font-size: $p-size;
+        line-height: 22px;
+      }
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+
+        & h6 {
+          font-family: $main-font;
+          font-weight: 500;
+          color: $secondary-color;
+          font-size: $h6-size;
+        }
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+
+
+      }
+
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .card {
+      width: 300px;
+      margin: 100px 45px 70px 45px;
+
+      &_title-and-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 30px;
+
+        & img {
+          height: 30px;
+        }
+
+        & h4 {
+          font-family: $main-font;
+          font-weight: 500;
+          color: $secondary-color;
+          font-size: 16px;
+          margin: 0;
+        }
+
+      }
+
+      &_text {
+        font-family: $main-font;
+        font-weight: 300;
+        color: $third-color;
+        font-size: 13px;
+        line-height: 22px;
+      }
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+
+        & h6 {
+          font-family: $main-font;
+          font-weight: 500;
+          color: $secondary-color;
+          font-size: 14px;
+        }
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+
+
+      }
+
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+
+    .card {
+      width: 300px;
+      margin: 100px 25px 70px 25px;
+
+      &_title-and-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 30px;
+
+        & img {
+          height: 30px;
+        }
+
+        & h4 {
+          font-family: $main-font;
+          font-weight: 500;
+          color: $secondary-color;
+          font-size: 16px;
+          margin: 0;
+        }
+
+      }
+
+      &_text {
+        font-family: $main-font;
+        font-weight: 300;
+        color: $third-color;
+        font-size: 13px;
+        line-height: 22px;
+      }
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+
+        & h6 {
+          font-family: $main-font;
+          font-weight: 500;
+          color: $secondary-color;
+          font-size: 14px;
+        }
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+
+
+      }
+
+    }
+}
+
+
+@media only screen and (max-width: 850px) {
+
+    .card {
+      width: 300px;
+      margin: 35px 15px 35px 15px;
+
+      &_title-and-image {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        padding-bottom: 30px;
+
+        & img {
+          height: 50px;
+          width: 70px;
+          background-size: cover;
+
+        }
+
+        & h4 {
+          font-family: $main-font;
+          font-weight: 500;
+          color: $secondary-color;
+          font-size: 14px;
+          margin: 0;
+        }
+
+      }
+
+      &_text {
+        font-family: $main-font;
+        font-weight: 300;
+        color: $third-color;
+        font-size: 10px;
+        line-height: 20px;
+      }
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+
+        & h6 {
+          font-family: $main-font;
+          font-weight: 500;
+          color: $secondary-color;
+          font-size: 14px;
+        }
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+
+
+      }
+
+    }
 }

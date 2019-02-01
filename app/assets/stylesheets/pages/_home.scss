@@ -2,6 +2,7 @@
     width: 88%;
     height: 45px;
     margin-top: 100px;
+    background-size: contain;
 }
 
 
@@ -144,6 +145,14 @@
 }
 
 @media only screen and (max-width: 850px) {
+
+  .text-separator {
+      width: 85%;
+      height: 25px;
+      margin-top: 80px;
+      background-size: contain;
+  }
+
   .home {
 
     &_first-slider {
