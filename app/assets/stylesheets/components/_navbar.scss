@@ -78,21 +78,23 @@
 }
 
 .fa-bars {
-  color: white;
+  color: $third-color;
   font-size: 30px;
 }
 
 .navbar-hoxton-dropdown-menu li > a {
   transition: color 0.3s ease;
+  font-family: $main-font;
   font-weight: lighter !important;
-  color: #999999 !important;
+  color: $third-color!important;
   font-size: 18px !important;
   line-height: 22px !important;
   padding: 10px 20px;
 }
 .navbar-hoxton-dropdown-menu li > a:hover {
   background: transparent !important;
-  color: black !important;
+  color: $primary-color !important;
+  font-weight: 400;
 }
 .navbar-hoxton-dropdown-menu:before {
   content: ' ';

@@ -1,0 +1,24 @@
+.section-two {
+    @include absCenter;
+    flex-direction: column;
+    background-color: white;
+
+    & h1 {
+      font-size: $h1-size;
+      font-family: $main-font;
+      color: $secondary-color;
+      font-weight: 400;
+      padding: 80px 0 10px 0;
+      text-align: center;
+    }
+
+    & h6 {
+      font-size: $h6-size;
+      font-family: $main-font;
+      color: $text-color-light;
+      font-weight: 300;
+      width: 50%;
+      text-align: center;
+      line-height: 25px;
+    }
+}

@@ -1,0 +1,55 @@
+.card {
+  width: 380px;
+  margin: 100px 45px 70px 45px;
+
+  &_title-and-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 30px;
+
+    & img {
+
+    }
+
+    & h4 {
+      font-family: $main-font;
+      font-weight: 500;
+      color: $secondary-color;
+      font-size: $h4-size;
+      margin: 0;
+    }
+
+  }
+
+  &_text {
+    font-family: $main-font;
+    font-weight: 300;
+    color: $third-color;
+    font-size: $p-size;
+    line-height: 22px;
+  }
+
+  &_button {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+
+    & h6 {
+      font-family: $main-font;
+      font-weight: 500;
+      color: $secondary-color;
+      font-size: $h6-size;
+    }
+
+    & span {
+      width: 22px;
+      height: 22px;
+      background-color: $primary-color;
+      margin: 0 20px;
+    }
+
+
+  }
+
+}
