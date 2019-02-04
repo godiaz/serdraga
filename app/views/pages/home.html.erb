@@ -39,7 +39,8 @@
   <section class="section-two">
     <h1 class="section-two_heading">SERVICIOS DE <span>DRAGADO </span>CON MAYOR EXPERIENCIA</h1>
     <h6>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to.</h6>
-    <%= image_tag 'text-separator.png', class: 'text-separator' %>
+    <%= image_tag 'text-separator.png', class: 'text-separator hidden-xs hidden-sm' %>
+    <%= image_tag 'mobile-text-separator', class: 'mobile-text-separator hidden-lg hidden-md hidden-xl' %>
   </section>
   <section class="section-three">
     <div class="section-three_card-holder">
@@ -83,7 +84,8 @@
         </div>
       </div>
     </div>
-    <%= image_tag 'text-separator.png', class: 'text-separator' %>
+    <%= image_tag 'text-separator.png', class: 'text-separator hidden-xs hidden-sm' %>
+    <%= image_tag 'mobile-text-separator', class: 'mobile-text-separator hidden-lg hidden-md hidden-xl' %>
   </section>
   <section class="section-four">
     <div class="section-four_card-holder">
@@ -113,6 +115,129 @@
         </div>
       </div>
     </div>
-    <%= image_tag 'text-separator.png', class: "text-separator" %>
+    <%= image_tag 'text-separator.png', class: 'text-separator hidden-xs hidden-sm' %>
+    <%= image_tag 'mobile-text-separator', class: 'mobile-text-separator hidden-lg hidden-md hidden-xl' %>
+  </section>
+  <section class="section-five">
+    <h4>Algunos Proyecto <span>(Ver todos los proyectos)</span></h4>
+    <div id="reviews-page" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#page1" data-slide-to="0" class="active"></li>
+        <li data-target="#page2" data-slide-to="1"></li>
+        <li data-target="#page3" data-slide-to="2"></li>
+      </ol>
+
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active" id="page1">
+          <div class="review-page" alt="1">
+            <div class="review-card">
+              <div class="review-card_image">
+                <%= image_tag 'https://images.pexels.com/photos/445363/pexels-photo-445363.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+              </div>
+              <div class="review-card_text">
+                <p class="review-card_text_header">Dragado Hidraulico</p>
+                <p>Rio Magdalena, Barranquilla, Colombia 2018 KM23</p>
+              </div>
+            </div>
+            <div class="review-card hidden-xs hidden-sm">
+              <div class="review-card_image">
+                <%= image_tag 'https://images.pexels.com/photos/1154197/pexels-photo-1154197.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+              </div>
+              <div class="review-card_text">
+                <p class="review-card_text_header">Dragado Hidraulico</p>
+                <p>Rio Cauca, Valle del Cauca, Colombia 2018 KM2.</p>
+              </div>
+            </div>
+            <div class="review-card hidden-xs hidden-sm">
+              <div class="review-card_image">
+                <%= image_tag 'https://images.pexels.com/photos/164037/pexels-photo-164037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+              </div>
+              <div class="review-card_text">
+                <p class="review-card_text_header">Dragado Hidraulico</p>
+                <p>Rio Suarez, Santander, Colombia 2018 KM5.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" id="page2">
+          <div class="review-page" alt="2">
+            <div class="review-card">
+              <div class="review-card_image">
+                <%= image_tag 'https://images.pexels.com/photos/372738/pexels-photo-372738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+              </div>
+              <div class="review-card_text">
+                <p class="review-card_text_header">Dragado Hidraulico</p>
+                <p>Rio Magdalena, Barranquilla, Colombia 2018 KM23</p>
+              </div>
+            </div>
+            <div class="review-card hidden-xs hidden-sm">
+              <div class="review-card_image">
+                <%= image_tag 'https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+              </div>
+              <div class="review-card_text">
+                <p class="review-card_text_header">Dragado Hidraulico</p>
+                <p>Rio Cauca, Valle del Cauca, Colombia 2018 KM2</p>
+              </div>
+            </div>
+            <div class="review-card hidden-xs hidden-sm">
+              <div class="review-card_image">
+                <%= image_tag 'https://images.pexels.com/photos/416431/pexels-photo-416431.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+              </div>
+              <div class="review-card_text">
+                <p class="review-card_text_header">Dragado Hidraulico</p>
+                <p>Rio Suarez, Santander, Colombia 2018 KM5</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="item" id="page3">
+          <div class="review-page" alt="3">
+             <div class="review-card">
+               <div class="review-card_image">
+                 <%= image_tag 'https://images.pexels.com/photos/975188/pexels-photo-975188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+               </div>
+               <div class="review-card_text">
+                <p class="review-card_text_header">Dragado Hidraulico</p>
+                <p>Rio Magdalena, Barranquilla, Colombia 2018 KM23.</p>
+               </div>
+             </div>
+             <div class="review-card hidden-xs hidden-sm">
+               <div class="review-card_image">
+                <%= image_tag 'https://images.pexels.com/photos/735790/bridge-rotterdam-erasmus-blue-735790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+               </div>
+               <div class="review-card_text">
+                <p class="review-card_text_header">Dragado Hidraulico</p>
+                <p>Rio Cauca, Valle del Cauca, Colombia 2018 KM2.</p>
+               </div>
+             </div>
+             <div class="review-card hidden-xs hidden-sm">
+               <div class="review-card_image">
+                 <%= image_tag 'https://images.pexels.com/photos/274596/pexels-photo-274596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+               </div>
+               <div class="review-card_text">
+                <p class="review-card_text_header">Dragado Hidraulico</p>
+                <p>Rio Suarez, Santander, Colombia 2018 KM5.</p>
+               </div>
+             </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#reviews-page" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#reviews-page" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <%= image_tag 'text-separator.png', class: 'text-separator hidden-xs hidden-sm' %>
+    <%= image_tag 'mobile-text-separator', class: 'mobile-text-separator hidden-lg hidden-md hidden-xl' %>
   </section>
 </div>
