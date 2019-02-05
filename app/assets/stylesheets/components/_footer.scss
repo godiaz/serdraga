@@ -1,0 +1,653 @@
+.hoxton-footer {
+  width: 100%;
+  height: 430px;
+  background-color: #626262;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &_logo {
+    width: 500px;
+    margin: 20px 70px;
+
+    & img {
+      height: 130px;
+      width: 470px;
+      background-size: cover;
+      margin: 20px 0px;
+    }
+
+    & p {
+      width: 350px;
+      font-size: $p-size;
+      font-family: $main-font;
+      font-weight: 300;
+      color: #DBDBDB;
+      line-height: 25px;
+      text-align: justify;
+    }
+  }
+
+  &_first-contact {
+    margin: 0 10px;
+    line-height: 30px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #C5C5C5;
+
+    & p {
+      font-size: $p-size;
+      font-family: $main-font;
+      font-weight: 300;
+    }
+
+    &_header {
+      color: #D8D8D8;
+      display: flex;
+
+      & h6 {
+       font-size: $h6-size;
+       font-family: $main-font;
+       font-weight: 300;
+       padding: 0 10px;
+      }
+
+      & img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+
+  &_second-contact {
+    margin: 0 10px;
+    line-height: 30px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #C5C5C5;
+
+    & p {
+      font-size: $p-size;
+      font-family: $main-font;
+      font-weight: 300;
+    }
+
+    &_header {
+      color: #D8D8D8;
+      display: flex;
+
+      & h6 {
+       font-size: $h6-size;
+       font-family: $main-font;
+       font-weight: 300;
+       padding: 0 10px;
+      }
+
+      & img {
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
+
+  &_label {
+    width: 100%;
+    height: 40px;
+    background-color: #4D4D4D;
+    position: absolute;
+      bottom: 0%;
+    @include absCenter;
+
+    & p {
+      color: #B9B9B9;
+      font-size: 16px;
+      font-family: $main-font;
+      font-weight: 300;
+      margin: 0;
+    }
+
+    & a {
+      color: #B9B9B9;
+      font-size: 16px;
+      font-family: $main-font;
+      font-weight: 300;
+      margin: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .hoxton-footer {
+    width: 100%;
+    height: 430px;
+    background-color: #626262;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &_logo {
+      width: 500px;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 20px 70px;
+
+      & img {
+        height: 100px;
+        width: 390px;
+        background-size: cover;
+        margin: 20px 0px;
+      }
+
+      & p {
+        width: 300px;
+        font-size: 12px;
+        font-family: $main-font;
+        font-weight: 300;
+        color: #DBDBDB;
+        line-height: 25px;
+        text-align: justify;
+      }
+    }
+
+    &_first-contact {
+      margin: 0 10px;
+      line-height: 20px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: #C5C5C5;
+
+      & p {
+        font-size: $p-size;
+        font-family: $main-font;
+        font-weight: 300;
+      }
+
+      &_header {
+        color: #D8D8D8;
+        display: flex;
+
+        & h6 {
+         font-size: $h6-size;
+         font-family: $main-font;
+         font-weight: 300;
+         padding: 0 10px;
+        }
+
+        & img {
+          height: 50px;
+          width: 50px;
+        }
+      }
+    }
+
+    &_second-contact {
+      margin: 0 10px;
+      line-height: 20px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: #C5C5C5;
+
+      & p {
+        font-size: $p-size;
+        font-family: $main-font;
+        font-weight: 300;
+      }
+
+      &_header {
+        color: #D8D8D8;
+        display: flex;
+
+        & h6 {
+         font-size: $h6-size;
+         font-family: $main-font;
+         font-weight: 300;
+         padding: 0 10px;
+        }
+
+        & img {
+          height: 50px;
+          width: 50px;
+        }
+      }
+    }
+
+    &_label {
+      width: 100%;
+      height: 40px;
+      background-color: #4D4D4D;
+      position: absolute;
+        bottom: 0%;
+      @include absCenter;
+
+      & p {
+        color: #B9B9B9;
+        font-size: 16px;
+        font-family: $main-font;
+        font-weight: 300;
+        margin: 0;
+      }
+
+      & a {
+        color: #B9B9B9;
+        font-size: 16px;
+        font-family: $main-font;
+        font-weight: 300;
+        margin: 0;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 1095px) {
+
+  .hoxton-footer {
+    width: 100%;
+    height: 430px;
+    background-color: #626262;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    &_logo {
+      width: 500px;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 20px 70px;
+
+      & img {
+        height: 80px;
+        width: 310px;
+        background-size: cover;
+        margin: 20px 0px;
+      }
+
+      & p {
+        width: 240px;
+        font-size: 12px;
+        font-family: $main-font;
+        font-weight: 300;
+        color: #DBDBDB;
+        line-height: 20px;
+        text-align: justify;
+      }
+    }
+
+    &_first-contact {
+      margin: 0 10px;
+      line-height: 20px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: #C5C5C5;
+
+      & p {
+        font-size: 12px;
+        font-family: $main-font;
+        font-weight: 300;
+      }
+
+      &_header {
+        color: #D8D8D8;
+        display: flex;
+
+        & h6 {
+         font-size: 14px;
+         font-family: $main-font;
+         font-weight: 300;
+         padding: 0 10px;
+        }
+
+        & img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+
+    &_second-contact {
+      margin: 0 10px;
+      line-height: 20px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: #C5C5C5;
+
+      & p {
+        font-size: 12px;
+        font-family: $main-font;
+        font-weight: 300;
+      }
+
+      &_header {
+        color: #D8D8D8;
+        display: flex;
+
+        & h6 {
+         font-size: 14px;
+         font-family: $main-font;
+         font-weight: 300;
+         padding: 0 10px;
+        }
+
+        & img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+
+    &_label {
+      width: 100%;
+      height: 40px;
+      background-color: #4D4D4D;
+      position: absolute;
+        bottom: 0%;
+      @include absCenter;
+
+      & p {
+        color: #B9B9B9;
+        font-size: 16px;
+        font-family: $main-font;
+        font-weight: 300;
+        margin: 0;
+      }
+
+      & a {
+        color: #B9B9B9;
+        font-size: 16px;
+        font-family: $main-font;
+        font-weight: 300;
+        margin: 0;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 900px) {
+
+  .hoxton-footer {
+    width: 100%;
+    height: 390px;
+    background-color: #626262;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_logo {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 10px 10px 60px 20px;
+
+      & img {
+        height: 80px;
+        width: 320px;
+        background-size: cover;
+        margin: 10px 0px;
+      }
+
+      & p {
+        font-size: 13px;
+        font-family: $main-font;
+        font-weight: 300;
+        color: #DBDBDB;
+        line-height: 24px;
+        text-align: justify;
+      }
+    }
+
+    &_first-contact {
+      margin: 0 10px;
+      line-height: 20px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: #C5C5C5;
+
+      & p {
+        font-size: 12px;
+        font-family: $main-font;
+        font-weight: 300;
+      }
+
+      &_header {
+        color: #D8D8D8;
+        display: flex;
+
+        & h6 {
+         font-size: 14px;
+         font-family: $main-font;
+         font-weight: 300;
+         padding: 0 10px;
+        }
+
+        & img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+
+    &_second-contact {
+      margin: 0 10px;
+      line-height: 20px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: #C5C5C5;
+
+      & p {
+        font-size: 12px;
+        font-family: $main-font;
+        font-weight: 300;
+      }
+
+      &_header {
+        color: #D8D8D8;
+        display: flex;
+
+        & h6 {
+         font-size: 14px;
+         font-family: $main-font;
+         font-weight: 300;
+         padding: 0 10px;
+        }
+
+        & img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+
+    &_label {
+      width: 100%;
+      height: 40px;
+      background-color: #4D4D4D;
+      position: absolute;
+        bottom: 0%;
+      @include absCenter;
+
+      & p {
+        color: #B9B9B9;
+        font-size: 13px;
+        font-family: $main-font;
+        font-weight: 300;
+        margin: 0;
+      }
+
+      & a {
+        color: #B9B9B9;
+        font-size: 13px;
+        font-family: $main-font;
+        font-weight: 300;
+        margin: 0;
+      }
+    }
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .hoxton-footer {
+    width: 100%;
+    height: 390px;
+    background-color: #626262;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &_logo {
+      width: 100%;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start;
+      margin: 10px 10px 60px 20px;
+
+      & img {
+        height: 70px;
+        width: 280px;
+        background-size: cover;
+        margin: 10px 0px;
+      }
+
+      & p {
+        font-size: 13px;
+        font-family: $main-font;
+        font-weight: 300;
+        color: #DBDBDB;
+        line-height: 24px;
+        text-align: justify;
+      }
+    }
+
+    &_first-contact {
+      margin: 0 10px;
+      line-height: 20px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: #C5C5C5;
+
+      & p {
+        font-size: 12px;
+        font-family: $main-font;
+        font-weight: 300;
+      }
+
+      &_header {
+        color: #D8D8D8;
+        display: flex;
+
+        & h6 {
+         font-size: 14px;
+         font-family: $main-font;
+         font-weight: 300;
+         padding: 0 10px;
+        }
+
+        & img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+
+    &_second-contact {
+      margin: 0 10px;
+      line-height: 20px;
+      height: 300px;
+      width: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      color: #C5C5C5;
+
+      & p {
+        font-size: 12px;
+        font-family: $main-font;
+        font-weight: 300;
+      }
+
+      &_header {
+        color: #D8D8D8;
+        display: flex;
+
+        & h6 {
+         font-size: 14px;
+         font-family: $main-font;
+         font-weight: 300;
+         padding: 0 10px;
+        }
+
+        & img {
+          height: 30px;
+          width: 30px;
+        }
+      }
+    }
+
+    &_label {
+      width: 100%;
+      height: 40px;
+      background-color: #4D4D4D;
+      position: absolute;
+        bottom: 0%;
+      @include absCenter;
+
+      & p {
+        color: #B9B9B9;
+        font-size: 13px;
+        font-family: $main-font;
+        font-weight: 300;
+        margin: 0;
+      }
+
+      & a {
+        color: #B9B9B9;
+        font-size: 13px;
+        font-family: $main-font;
+        font-weight: 300;
+        margin: 0;
+      }
+    }
+  }
+
+}
