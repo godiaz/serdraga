@@ -1,0 +1,45 @@
+<div class="contact">
+  <div class="contact_first-section">
+    <div class="contact_content">
+      <h1 class="contact_content_header">CONTACTANOS <span>EMPRESA</span></h1>
+      <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has.</p>
+      <div class="contact_content_form">
+        <form action="https://formspree.io/torressilvasergio@gmail.com" method="post">
+          <input placeholder="Primer Nombre y Apellido" type="text"  value="" required>
+          <input placeholder="Correo Electronico" name="email" type="email" onblur="this.setAttribute('value', this.value);" value="" required>
+          <span class="validation-text">Por favor coloca una direccion de correo valida.</span>
+          <div class="flex">
+            <textarea placeholder="Mensaje" name="message" rows="1" required></textarea>
+          </div>
+          <input class="contact_form_button" type="submit" value="Enviar">
+        </form>
+      </div>
+    </div>
+    <div class="contact_text hidden-md hidden-sm hidden-xs">
+      <p>
+        <em>
+         “It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to .
+         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to .
+         <br><br>
+         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+         <br><br>
+         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed.
+         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. <br><br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed “
+        </em>
+      </p>
+    </div>
+  </div>
+  <%= image_tag 'text-separator.png', class: 'text-separator hidden-xs hidden-sm' %>
+  <%= image_tag 'mobile-text-separator.png', class: 'mobile-text-separator hidden-lg hidden-md hidden-xl' %>
+  <div class="contact_second-section">
+    <div class="contact_second-section_media">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-youtube-square"></i>
+    </div>
+    <p class="hidden-md hidden-sm hidden-xs">
+      “It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that"
+    </p>
+  </div>
+</div>
