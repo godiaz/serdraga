@@ -1,0 +1,759 @@
+.services-text-separator {
+    width: 88%;
+    height: 45px;
+    margin-top: 40px;
+    background-size: contain;
+}
+
+.mobile-text-separator {
+    width: 85%;
+    height: 20px;
+    margin-top: 80px;
+    background-size: contain;
+}
+
+
+.services {
+
+  &_first-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 200px;
+
+    & h1 {
+      width: 88%;
+      text-align: left;
+      font-family: $main-font;
+      font-size: $h1-size;
+      color: $secondary-color;
+    }
+  }
+
+  &_second-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+}
+
+.left-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 88%;
+  padding: 100px 0px;
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+    & h4 {
+      font-family: $main-font;
+      font-size: $h4-size;
+      font-weight: 500;
+      color: $secondary-color;
+      padding-bottom: 20px;
+      border-bottom: 4px solid $primary-color;
+    }
+
+    & p {
+      font-family: $main-font;
+      font-size: $p-size;
+      color: $text-color;
+      font-weight: 300;
+      line-height: 20px;
+    }
+
+
+    &_button {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+      color: $secondary-color !important;
+      font-family: $main-font;
+      font-weight: 500;
+      font-size: $h6-size;
+
+      & span {
+        width: 22px;
+        height: 22px;
+        background-color: $primary-color;
+        margin: 0 20px;
+      }
+    }
+  }
+
+  &_image {
+
+    & img {
+      height: 350px;
+      width: 500px;
+    }
+  }
+}
+
+.right-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 88%;
+  padding: 100px 0px;
+
+  &_image {
+
+    & img {
+      height: 350px;
+      width: 500px;
+    }
+  }
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+
+    & h4 {
+      font-family: $main-font;
+      font-size: $h4-size;
+      font-weight: 500;
+      color: $secondary-color;
+      padding-bottom: 20px;
+      border-bottom: 4px solid $primary-color;
+    }
+
+    & p {
+      font-family: $main-font;
+      font-size: $p-size;
+      color: $text-color;
+      font-weight: 300;
+      line-height: 20px;
+    }
+
+
+    &_button {
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+      color: $secondary-color !important;
+      font-family: $main-font;
+      font-weight: 500;
+      font-size: $h6-size;
+
+      & span {
+        width: 22px;
+        height: 22px;
+        background-color: $primary-color;
+        margin: 0 20px;
+      }
+    }
+  }
+
+}
+
+
+@media only screen and (max-width: 1350px) {
+
+  .services {
+
+    &_first-section {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 200px;
+
+      & h1 {
+        width: 88%;
+        text-align: left;
+        font-family: $main-font;
+        font-size: $h1-size;
+        color: $secondary-color;
+      }
+    }
+
+    &_second-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+
+  .left-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    padding: 100px 0px;
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        font-weight: 500;
+        color: $secondary-color;
+        padding-bottom: 20px;
+        border-bottom: 4px solid $primary-color;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        color: $text-color;
+        font-weight: 300;
+        line-height: 20px;
+      }
+
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        color: $secondary-color !important;
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: $h6-size;
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+      }
+    }
+
+    &_image {
+
+      & img {
+        height: 350px;
+        width: 500px;
+      }
+    }
+  }
+
+  .right-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    padding: 100px 0px;
+
+    &_image {
+
+      & img {
+        height: 350px;
+        width: 500px;
+      }
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        font-weight: 500;
+        color: $secondary-color;
+        padding-bottom: 20px;
+        border-bottom: 4px solid $primary-color;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        color: $text-color;
+        font-weight: 300;
+        line-height: 20px;
+      }
+
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        color: $secondary-color !important;
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: $h6-size;
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+      }
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .services {
+
+    &_first-section {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 200px;
+
+      & h1 {
+        width: 88%;
+        text-align: left;
+        font-family: $main-font;
+        font-size: $h1-size;
+        color: $secondary-color;
+      }
+    }
+
+    &_second-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+
+  .left-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    padding: 100px 0px;
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        font-weight: 500;
+        color: $secondary-color;
+        padding-bottom: 20px;
+        border-bottom: 4px solid $primary-color;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        color: 12px;
+        font-weight: 300;
+        line-height: 20px;
+      }
+
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        color: $secondary-color !important;
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: $h6-size;
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+      }
+    }
+
+    &_image {
+
+      & img {
+        height: 250px;
+        width: 400px;
+      }
+    }
+  }
+
+  .right-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 88%;
+    padding: 100px 0px;
+
+    &_image {
+
+      & img {
+        height: 250px;
+        width: 400px;
+      }
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      width: 500px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        font-weight: 500;
+        color: $secondary-color;
+        padding-bottom: 20px;
+        border-bottom: 4px solid $primary-color;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: 12px;
+        color: $text-color;
+        font-weight: 300;
+        line-height: 20px;
+      }
+
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        color: $secondary-color !important;
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: $h6-size;
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+      }
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+  .services {
+
+    &_first-section {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 200px;
+
+      & h1 {
+        width: 88%;
+        text-align: left;
+        font-family: $main-font;
+        font-size: $h1-size;
+        color: $secondary-color;
+      }
+    }
+
+    &_second-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+  }
+
+  .left-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    padding: 100px 0px;
+    flex-wrap: wrap;
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      width: 88%;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        font-weight: 500;
+        color: $secondary-color;
+        padding-bottom: 20px;
+        border-bottom: 4px solid $primary-color;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        color: 12px;
+        font-weight: 300;
+        line-height: 20px;
+      }
+
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        color: $secondary-color !important;
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: $h6-size;
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+      }
+    }
+
+    &_image {
+      margin: 30px 0px;
+      width: 88%;
+
+      & img {
+        margin: 30px 0px;
+        height: 450px;
+        width: 100%;
+      }
+    }
+  }
+
+  .right-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    padding: 50px 0px;
+    flex-wrap: wrap-reverse;
+
+    &_image {
+      margin: 30px 0px;
+      width: 88%;
+
+      & img {
+        height: 450px;
+        width: 100%;
+      }
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      width: 88%;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        font-weight: 500;
+        color: $secondary-color;
+        padding-bottom: 20px;
+        border-bottom: 4px solid $primary-color;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: 12px;
+        color: $text-color;
+        font-weight: 300;
+        line-height: 20px;
+      }
+
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        color: $secondary-color !important;
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: $h6-size;
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+      }
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .services {
+
+    &_first-section {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      margin-top: 200px;
+
+      & h1 {
+        width: 88%;
+        text-align: left;
+        font-family: $main-font;
+        font-size: $h1-size;
+        color: $secondary-color;
+      }
+    }
+
+    &_second-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+  }
+
+  .left-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    padding: 20px 0px;
+    flex-wrap: wrap;
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      width: 88%;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        font-weight: 500;
+        color: $secondary-color;
+        padding-bottom: 20px;
+        border-bottom: 4px solid $primary-color;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: 12px;
+        color: $text-color;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: justify;
+      }
+
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        color: $secondary-color !important;
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: $h6-size;
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+      }
+    }
+
+    &_image {
+      margin: 30px 0px;
+      width: 88%;
+
+      & img {
+        margin: 30px 0px;
+        height: 250px;
+        width: 100%;
+      }
+    }
+  }
+
+  .right-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+    padding: 20px 0px;
+    flex-wrap: wrap-reverse;
+
+    &_image {
+      margin: 30px 0px;
+      width: 88%;
+
+      & img {
+        height: 250px;
+        width: 100%;
+      }
+    }
+
+    &_content {
+      display: flex;
+      flex-direction: column;
+      width: 88%;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        font-weight: 500;
+        color: $secondary-color;
+        padding-bottom: 20px;
+        border-bottom: 4px solid $primary-color;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: 12px;
+        color: $text-color;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: justify;
+      }
+
+
+      &_button {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        color: $secondary-color !important;
+        font-family: $main-font;
+        font-weight: 500;
+        font-size: $h6-size;
+
+        & span {
+          width: 22px;
+          height: 22px;
+          background-color: $primary-color;
+          margin: 0 20px;
+        }
+      }
+    }
+
+  }
+
+}
+
