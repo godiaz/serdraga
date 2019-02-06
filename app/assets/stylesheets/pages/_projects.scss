@@ -1,1 +1,1091 @@
 
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 240px;
+
+  &_first-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+      &_content {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 88%;
+
+        &_text {
+          display: flex;
+          flex-direction: column;
+          width: 500px;
+
+          &_header {
+            font-family: $main-font;
+            font-size: $h1-size;
+            color: $secondary-color;
+            font-weight: 500;
+            margin-bottom: 40px;
+
+            & span {
+              color: $primary-color;
+              font-weight: 500;
+            }
+          }
+
+          & p {
+            font-family: $main-font;
+            font-size: $p-size;
+            color: $text-color;
+            font-weight: 300;
+          }
+        }
+
+        &_art {
+
+          & img {
+            height: 300px;
+            width: 500px;
+          }
+        }
+      }
+  }
+
+  &_second-section {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    & h1 {
+      width: 88%;
+      font-family: $main-font;
+      font-size: $h1-size;
+      color: $secondary-color;
+      padding-bottom: 20px;
+      font-weight: 500;
+      margin-bottom: 40px;
+      border-bottom: 4px solid $primary-color;
+      text-align: left;
+    }
+
+  }
+
+}
+
+#projects-page {
+  .carousel-control.left, .carousel-control.right {
+     background-image:none !important;
+     filter:none !important;
+  }
+}
+
+.project-page {
+  width: 100vw;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  height: 780px;
+
+  &_card-holder {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  & p {
+    font-family: $main-font;
+    font-size: $p-size;
+    font-weight: 300;
+    color: $text-color-light;
+  }
+
+  &_card-description {
+    width: 88%;
+    margin: 20px 0px 100px 0px;
+    text-align: left;
+    font-family: $main-font;
+    font-size: $p-size;
+    color: $text-color;
+    font-weight: 300;
+  }
+}
+
+.project-card {
+  border-radius: 1px;
+  width: 42vw;
+  height: 30vh;
+  margin: 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  &_image img {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 1px 1px 0 0;
+  }
+
+  &_text {
+    height: 180px;
+    padding: 5px 20px;
+    margin-top: 6px;
+    background-color: #E6EAF3;
+    text-align: center;
+
+    &_header {
+      width: 100%;
+      font-size: $p-size;
+      font-weight: 500;
+      color: $secondary-color;
+      margin: 0;
+    }
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+
+
+    .projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 240px;
+
+      &_first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+          &_content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 88%;
+
+            &_text {
+              display: flex;
+              flex-direction: column;
+              width: 470px;
+
+              &_header {
+                font-family: $main-font;
+                font-size: $h1-size;
+                color: $secondary-color;
+                font-weight: 500;
+                margin-bottom: 40px;
+              }
+
+              & p {
+                font-family: $main-font;
+                font-size: $p-size;
+                color: $text-color;
+                font-weight: 300;
+              }
+            }
+
+            &_art {
+
+              & img {
+                height: 250px;
+                width: 400px;
+              }
+            }
+          }
+      }
+
+      &_second-section {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & h1 {
+          width: 88%;
+          font-family: $main-font;
+          font-size: $h1-size;
+          color: $secondary-color;
+          padding-bottom: 20px;
+          font-weight: 500;
+          margin-bottom: 40px;
+          border-bottom: 4px solid $primary-color;
+          text-align: left;
+        }
+
+      }
+
+    }
+
+    #projects-page {
+      .carousel-control.left, .carousel-control.right {
+         background-image:none !important;
+         filter:none !important;
+      }
+    }
+
+    .project-page {
+      width: 100vw;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      height: 780px;
+
+      &_card-holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        font-weight: 300;
+        color: $text-color-light;
+      }
+
+      &_card-description {
+        width: 88%;
+        margin: 20px 0px 100px 0px;
+        text-align: left;
+        font-family: $main-font;
+        font-size: $p-size;
+        color: $text-color;
+        font-weight: 300;
+      }
+    }
+
+    .project-card {
+      border-radius: 1px;
+      width: 42vw;
+      height: 30vh;
+      margin: 20px;
+
+      display: flex;
+      flex-direction: column;
+
+      &_image img {
+        height: 400px;
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+        border-radius: 1px 1px 0 0;
+      }
+
+      &_text {
+        height: 180px;
+        padding: 5px 20px;
+        margin-top: 6px;
+        background-color: #E6EAF3;
+        text-align: center;
+
+        &_header {
+          width: 100%;
+          font-size: $p-size;
+          font-weight: 500;
+          color: $secondary-color;
+          margin: 0;
+        }
+      }
+
+    }
+}
+
+@media only screen and (max-width: 1050px) {
+
+    .projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 240px;
+
+      &_first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+          &_content {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            width: 88%;
+
+            &_text {
+              display: flex;
+              flex-direction: column;
+              width: 400px;
+
+              &_header {
+                font-family: $main-font;
+                font-size: 22px;
+                color: $secondary-color;
+                font-weight: 500;
+                margin-bottom: 40px;
+              }
+
+              & p {
+                font-family: $main-font;
+                font-size: 12px;
+                color: $text-color;
+                font-weight: 300;
+                text-align: justify;
+              }
+            }
+
+            &_art {
+
+              & img {
+                height: 250px;
+                width: 400px;
+              }
+            }
+          }
+      }
+
+      &_second-section {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & h1 {
+          width: 88%;
+          font-family: $main-font;
+          font-size: $h1-size;
+          color: $secondary-color;
+          padding-bottom: 20px;
+          font-weight: 500;
+          margin-bottom: 40px;
+          border-bottom: 4px solid $primary-color;
+          text-align: left;
+        }
+
+      }
+
+    }
+
+    #projects-page {
+      .carousel-control.left, .carousel-control.right {
+         background-image:none !important;
+         filter:none !important;
+      }
+    }
+
+    .project-page {
+      width: 100vw;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+      height: 740px;
+
+      &_card-holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        font-weight: 300;
+        color: $text-color-light;
+      }
+
+      &_card-description {
+        width: 88%;
+        margin: 20px 0px 100px 0px;
+        text-align: left;
+        font-family: $main-font;
+        font-size: $p-size;
+        color: $text-color;
+        font-weight: 300;
+      }
+    }
+
+    .project-card {
+      border-radius: 1px;
+      width: 42vw;
+      height: 30vh;
+      margin: 20px;
+
+      display: flex;
+      flex-direction: column;
+
+      &_image img {
+        height: 350px;
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+        border-radius: 1px 1px 0 0;
+      }
+
+      &_text {
+        height: 180px;
+        padding: 5px 20px;
+        margin-top: 6px;
+        background-color: #E6EAF3;
+        text-align: center;
+
+        &_header {
+          width: 100%;
+          font-size: $p-size;
+          font-weight: 500;
+          color: $secondary-color;
+          margin: 0;
+        }
+      }
+
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 200px;
+
+      &_first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+          &_content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 88%;
+
+            &_text {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+
+              &_header {
+                font-family: $main-font;
+                font-size: 22px;
+                color: $secondary-color;
+                font-weight: 500;
+                margin-bottom: 40px;
+              }
+
+              & p {
+                font-family: $main-font;
+                font-size: 12px;
+                color: $text-color;
+                font-weight: 300;
+                text-align: justify;
+              }
+            }
+
+            &_art {
+
+              & img {
+                margin: 50px 0px 0px 0px;
+                height: 195px;
+                width: 320px;
+              }
+            }
+          }
+      }
+
+      &_second-section {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & h1 {
+          width: 88%;
+          font-family: $main-font;
+          font-size: $h1-size;
+          color: $secondary-color;
+          padding-bottom: 20px;
+          font-weight: 500;
+          margin-bottom: 40px;
+          border-bottom: 4px solid $primary-color;
+          text-align: left;
+        }
+
+      }
+
+    }
+
+    #projects-page {
+      .carousel-control.left, .carousel-control.right {
+         background-image:none !important;
+         filter:none !important;
+      }
+    }
+
+    .project-page {
+      width: 100vw;
+      height: 130vh;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+
+      &_card-holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 72vh;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        font-weight: 300;
+        color: $text-color-light;
+      }
+
+      &_card-description {
+        width: 88%;
+        margin: 20px 0px 100px 0px;
+        text-align: left;
+        font-family: $main-font;
+        font-size: 12px;
+        color: $text-color;
+        font-weight: 300;
+      }
+    }
+
+    .project-card {
+      border-radius: 1px;
+      width: 88vw;
+      height: 30vh;
+      margin: 20px;
+
+      display: flex;
+      flex-direction: column;
+
+      &_image img {
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+        border-radius: 1px 1px 0 0;
+      }
+
+      &_text {
+        height: 80px;
+        padding: 5px 20px;
+        margin: 6px 0px 10px 0px;
+        background-color: #E6EAF3;
+        text-align: center;
+
+        &_header {
+          width: 100%;
+          font-size: $p-size;
+          font-weight: 500;
+          color: $secondary-color;
+          margin: 0;
+        }
+      }
+
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 200px;
+
+      &_first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+          &_content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 88%;
+
+            &_text {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+
+              &_header {
+                font-family: $main-font;
+                font-size: 22px;
+                color: $secondary-color;
+                font-weight: 500;
+                margin-bottom: 40px;
+              }
+
+              & p {
+                font-family: $main-font;
+                font-size: 12px;
+                color: $text-color;
+                font-weight: 300;
+                text-align: justify;
+              }
+            }
+
+            &_art {
+
+              & img {
+                margin: 50px 0px 0px 0px;
+                height: 195px;
+                width: 320px;
+              }
+            }
+          }
+      }
+
+      &_second-section {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & h1 {
+          width: 88%;
+          font-family: $main-font;
+          font-size: $h1-size;
+          color: $secondary-color;
+          padding-bottom: 20px;
+          font-weight: 500;
+          margin-bottom: 40px;
+          border-bottom: 4px solid $primary-color;
+          text-align: left;
+        }
+
+      }
+
+    }
+
+    #projects-page {
+      .carousel-control.left, .carousel-control.right {
+         background-image:none !important;
+         filter:none !important;
+      }
+    }
+
+    .project-page {
+      width: 100vw;
+      height: 145vh;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+
+      &_card-holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        font-weight: 300;
+        color: $text-color-light;
+      }
+
+      &_card-description {
+        width: 88%;
+        margin: 20px 0px 100px 0px;
+        text-align: left;
+        font-family: $main-font;
+        font-size: 12px;
+        color: $text-color;
+        font-weight: 300;
+      }
+    }
+
+    .project-card {
+      border-radius: 1px;
+      width: 88vw;
+      height: 30vh;
+      margin: 20px;
+
+      display: flex;
+      flex-direction: column;
+
+      &_image img {
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+        border-radius: 1px 1px 0 0;
+      }
+
+      &_text {
+        height: 80px;
+        padding: 5px 20px;
+        margin: 6px 0px 10px 0px;
+        background-color: #E6EAF3;
+        text-align: center;
+
+        &_header {
+          width: 100%;
+          font-size: $p-size;
+          font-weight: 500;
+          color: $secondary-color;
+          margin: 0;
+        }
+      }
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 200px;
+
+      &_first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+          &_content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 88%;
+
+            &_text {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+
+              &_header {
+                font-family: $main-font;
+                font-size: 22px;
+                color: $secondary-color;
+                font-weight: 500;
+                margin-bottom: 40px;
+              }
+
+              & p {
+                font-family: $main-font;
+                font-size: 12px;
+                color: $text-color;
+                font-weight: 300;
+                text-align: justify;
+              }
+            }
+
+            &_art {
+
+              & img {
+                margin: 50px 0px 0px 0px;
+                height: 195px;
+                width: 320px;
+              }
+            }
+          }
+      }
+
+      &_second-section {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & h1 {
+          width: 88%;
+          font-family: $main-font;
+          font-size: $h1-size;
+          color: $secondary-color;
+          padding-bottom: 20px;
+          font-weight: 500;
+          margin-bottom: 40px;
+          border-bottom: 4px solid $primary-color;
+          text-align: left;
+        }
+
+      }
+
+    }
+
+    #projects-page {
+      .carousel-control.left, .carousel-control.right {
+         background-image:none !important;
+         filter:none !important;
+      }
+    }
+
+    .project-page {
+      width: 100vw;
+      height: 155vh;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+
+      &_card-holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 80vh;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        font-weight: 300;
+        color: $text-color-light;
+      }
+
+      &_card-description {
+        width: 88%;
+        margin: 20px 0px 100px 0px;
+        text-align: left;
+        font-family: $main-font;
+        font-size: 12px;
+        color: $text-color;
+        font-weight: 300;
+      }
+    }
+
+    .project-card {
+      border-radius: 1px;
+      width: 88vw;
+      height: 30vh;
+      margin: 20px;
+
+      display: flex;
+      flex-direction: column;
+
+      &_image img {
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+        border-radius: 1px 1px 0 0;
+      }
+
+      &_text {
+        height: 80px;
+        padding: 5px 20px;
+        margin: 6px 0px 10px 0px;
+        background-color: #E6EAF3;
+        text-align: center;
+
+        &_header {
+          width: 100%;
+          font-size: $p-size;
+          font-weight: 500;
+          color: $secondary-color;
+          margin: 0;
+        }
+      }
+
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .projects {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 200px;
+
+      &_first-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+          &_content {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 88%;
+
+            &_text {
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+
+              &_header {
+                font-family: $main-font;
+                font-size: 22px;
+                color: $secondary-color;
+                font-weight: 500;
+                margin-bottom: 40px;
+              }
+
+              & p {
+                font-family: $main-font;
+                font-size: 12px;
+                color: $text-color;
+                font-weight: 300;
+                text-align: justify;
+              }
+            }
+
+            &_art {
+
+              & img {
+                margin: 50px 0px 0px 0px;
+                height: 165px;
+                width: 270px;
+              }
+            }
+          }
+      }
+
+      &_second-section {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        & h1 {
+          width: 88%;
+          font-family: $main-font;
+          font-size: $h1-size;
+          color: $secondary-color;
+          padding-bottom: 20px;
+          font-weight: 500;
+          margin-bottom: 40px;
+          border-bottom: 4px solid $primary-color;
+          text-align: left;
+        }
+
+      }
+
+    }
+
+    #projects-page {
+      .carousel-control.left, .carousel-control.right {
+         background-image:none !important;
+         filter:none !important;
+      }
+    }
+
+    .project-page {
+      width: 100vw;
+      height: 195vh;
+      padding-top: 40px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      background-color: white;
+
+      &_card-holder {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        height: 90vh;
+      }
+
+      & p {
+        font-family: $main-font;
+        font-size: $p-size;
+        font-weight: 300;
+        color: $text-color-light;
+      }
+
+      &_card-description {
+        width: 88%;
+        margin: 20px 0px 100px 0px;
+        text-align: left;
+        font-family: $main-font;
+        font-size: 12px;
+        color: $text-color;
+        font-weight: 300;
+      }
+    }
+
+    .project-card {
+      border-radius: 1px;
+      width: 88vw;
+      height: 30vh;
+      margin: 20px;
+
+      display: flex;
+      flex-direction: column;
+
+      &_image img {
+        height: 250px;
+        width: 100%;
+        overflow: hidden;
+        background-size: cover;
+        border-radius: 1px 1px 0 0;
+      }
+
+      &_text {
+        height: 80px;
+        padding: 5px 20px;
+        margin: 6px 0px 10px 0px;
+        background-color: #E6EAF3;
+        text-align: center;
+
+        &_header {
+          width: 100%;
+          font-size: $p-size;
+          font-weight: 500;
+          color: $secondary-color;
+          margin: 0;
+        }
+      }
+
+    }
+}
