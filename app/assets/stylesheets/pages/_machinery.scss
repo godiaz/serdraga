@@ -1,0 +1,672 @@
+.machinery-text-separator {
+    width: 100%;
+    height: 45px;
+    margin-top: 100px;
+    background-size: contain;
+}
+
+.machinery-mobile-text-separator {
+    width: 100%;
+    height: 20px;
+    background-size: contain;
+}
+
+
+
+.machinery {
+
+  &_first-section {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 110px;
+    // justify-content: center;
+    // align-items: center;
+
+    & h1 {
+      font-family: $main-font;
+      font-size: $h1-size;
+      color: $secondary-color;
+      font-weight: 500;
+      margin-bottom: 40px;
+
+      & span {
+        color: $primary-color;
+      }
+    }
+
+    & p {
+      width: 60%;
+      font-family: $main-font;
+      font-size: $p-size;
+      font-weight: 300;
+      color: $text-color-light;
+      margin-bottom: 40px;
+    }
+  }
+
+  &_second-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 110px;
+    margin-bottom: 40px;
+
+    & h4 {
+      font-family: $main-font;
+      font-size: $h4-size;
+      color: $secondary-color;
+      font-weight: 500;
+      padding-bottom: 20px;
+      border-bottom: 3px solid $primary-color;
+      width: 100%;
+      text-align: left;
+      margin-bottom: 40px;
+    }
+  }
+
+  &_third-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 110px;
+    margin-bottom: 40px;
+
+    & h4 {
+      font-family: $main-font;
+      font-size: $h4-size;
+      color: $secondary-color;
+      font-weight: 500;
+      padding-bottom: 20px;
+      border-bottom: 3px solid $primary-color;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+
+  &_fourth-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5px 110px;
+    margin-bottom: 80px;
+
+    & h4 {
+      font-family: $main-font;
+      font-size: $h4-size;
+      color: $secondary-color;
+      font-weight: 500;
+      padding-bottom: 20px;
+      border-bottom: 3px solid $primary-color;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+
+}
+
+#machinery-page {
+  .carousel-control.left, .carousel-control.right {
+     background-image:none !important;
+     filter:none !important;
+  }
+}
+
+.machinery-page {
+  width: 88vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  height: 480px;
+
+  & p {
+    font-family: $main-font;
+    font-size: $p-size;
+    font-weight: 300;
+    color: $text-color-light;
+  }
+}
+
+.machinery-card {
+  border-radius: 1px;
+  width: 42vw;
+  max-width: 600px;
+  height: 450px;
+  margin: 10px 20px;
+
+  display: flex;
+  flex-direction: column;
+
+  &_image img {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    background-size: cover;
+    border-radius: 1px 1px 0 0;
+  }
+
+  &_text {
+    padding: 7px 20px;
+    margin-top: 6px;
+    background-color: #E6EAF3;
+    text-align: center;
+
+    & p:first-child {
+      font-size: $p-size;
+      font-weight: 500;
+      color: $secondary-color;
+      margin: 0;
+    }
+
+    & p:last-child {
+      font-size: $p-size;
+      font-weight: 300;
+      color: $text-color;
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+  .machinery {
+
+    &_first-section {
+      margin-top: 200px;
+      display: flex;
+      flex-direction: column;
+      padding: 5px 110px;
+      // justify-content: center;
+      // align-items: center;
+
+      & h1 {
+        font-family: $main-font;
+        font-size: $h1-size;
+        color: $secondary-color;
+        font-weight: 500;
+        margin-bottom: 40px;
+
+        & span {
+          color: $primary-color;
+        }
+      }
+
+      & p {
+        width: 60%;
+        font-family: $main-font;
+        font-size: $p-size;
+        font-weight: 300;
+        color: $text-color-light;
+        margin-bottom: 40px;
+      }
+    }
+
+    &_second-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px 110px;
+      margin-bottom: 40px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        color: $secondary-color;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 3px solid $primary-color;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 40px;
+      }
+    }
+
+    &_third-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px 110px;
+      margin-bottom: 40px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        color: $secondary-color;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 3px solid $primary-color;
+        width: 100%;
+        margin-bottom: 40px;
+      }
+    }
+
+    &_fourth-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px 110px;
+      margin-bottom: 80px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        color: $secondary-color;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 3px solid $primary-color;
+        width: 100%;
+        margin-bottom: 40px;
+      }
+    }
+
+  }
+
+  #machinery-page {
+    .carousel-control.left, .carousel-control.right {
+       background-image:none !important;
+       filter:none !important;
+    }
+  }
+
+  .machinery-page {
+    width: 88vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 480px;
+
+    & p {
+      font-family: $main-font;
+      font-size: $p-size;
+      font-weight: 300;
+      color: $text-color-light;
+    }
+  }
+
+  .machinery-card {
+    border-radius: 1px;
+    width: 37vw;
+    max-width: 600px;
+    height: 450px;
+    margin: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    &_image img {
+      height: 350px;
+      width: 100%;
+      overflow: hidden;
+      background-size: cover;
+      border-radius: 1px 1px 0 0;
+    }
+
+    &_text {
+      padding: 7px 20px;
+      margin-top: 6px;
+      background-color: #E6EAF3;
+      text-align: center;
+
+      & p:first-child {
+        font-size: $p-size;
+        font-weight: 500;
+        color: $secondary-color;
+        margin: 0;
+      }
+
+      & p:last-child {
+        font-size: $p-size;
+        font-weight: 300;
+        color: $text-color;
+      }
+
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 980px) {
+
+  .machinery {
+
+    &_first-section {
+      margin-top: 200px;
+      display: flex;
+      flex-direction: column;
+      padding: 5px 110px;
+      // justify-content: center;
+      // align-items: center;
+
+      & h1 {
+        font-family: $main-font;
+        font-size: $h1-size;
+        color: $secondary-color;
+        font-weight: 500;
+        margin-bottom: 40px;
+
+        & span {
+          color: $primary-color;
+        }
+      }
+
+      & p {
+        width: 100%;
+        font-family: $main-font;
+        font-size: $p-size;
+        font-weight: 300;
+        color: $text-color-light;
+        margin-bottom: 40px;
+      }
+    }
+
+    &_second-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px 110px;
+      margin-bottom: 40px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        color: $secondary-color;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 3px solid $primary-color;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 40px;
+      }
+    }
+
+    &_third-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px 110px;
+      margin-bottom: 40px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        color: $secondary-color;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 3px solid $primary-color;
+        width: 100%;
+        margin-bottom: 40px;
+      }
+    }
+
+    &_fourth-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px 110px;
+      margin-bottom: 80px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: $h4-size;
+        color: $secondary-color;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 3px solid $primary-color;
+        width: 100%;
+        margin-bottom: 40px;
+      }
+    }
+
+  }
+
+  #machinery-page {
+    .carousel-control.left, .carousel-control.right {
+       background-image:none !important;
+       filter:none !important;
+    }
+  }
+
+  .machinery-page {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 480px;
+
+    & p {
+      font-family: $main-font;
+      font-size: $p-size;
+      font-weight: 300;
+      color: $text-color-light;
+    }
+  }
+
+  .machinery-card {
+    border-radius: 1px;
+    width: 80vw;
+    height: 470px;
+    margin: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    &_image img {
+      height: 350px;
+      width: 100%;
+      overflow: hidden;
+      background-size: cover;
+      border-radius: 1px 1px 0 0;
+    }
+
+    &_text {
+      padding: 7px 20px;
+      margin-top: 6px;
+      background-color: #E6EAF3;
+      text-align: center;
+
+      & p:first-child {
+        font-size: $p-size;
+        font-weight: 500;
+        color: $secondary-color;
+        margin: 0;
+      }
+
+      & p:last-child {
+        font-size: 12px;
+        font-weight: 300;
+        color: $text-color;
+      }
+
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 900px) {
+
+  .machinery {
+
+    &_first-section {
+      margin-top: 200px;
+      display: flex;
+      flex-direction: column;
+      padding: 5px 20px;
+      // justify-content: center;
+      // align-items: center;
+
+      & h1 {
+        font-family: $main-font;
+        font-size: 24px;
+        color: $secondary-color;
+        font-weight: 500;
+        margin-bottom: 40px;
+
+        & span {
+          color: $primary-color;
+        }
+      }
+
+      & p {
+        width: 100%;
+        font-family: $main-font;
+        font-size: 12px;
+        font-weight: 300;
+        color: $text-color-light;
+        margin-bottom: 40px;
+      }
+    }
+
+    &_second-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px 20px;
+      margin-bottom: 40px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: 16px;
+        color: $secondary-color;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 3px solid $primary-color;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 10px;
+      }
+    }
+
+    &_third-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px 20px;
+      margin-bottom: 40px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: 16px;
+        color: $secondary-color;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 3px solid $primary-color;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+    &_fourth-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 5px 20px;
+      margin-bottom: 80px;
+
+      & h4 {
+        font-family: $main-font;
+        font-size: 16px;
+        color: $secondary-color;
+        font-weight: 500;
+        padding-bottom: 20px;
+        border-bottom: 3px solid $primary-color;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+    }
+
+  }
+
+  #machinery-page {
+    .carousel-control.left, .carousel-control.right {
+       background-image:none !important;
+       filter:none !important;
+    }
+  }
+
+  .machinery-page {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    height: 480px;
+
+    & p {
+      font-family: $main-font;
+      font-size: $p-size;
+      font-weight: 300;
+      color: $text-color-light;
+    }
+  }
+
+  .machinery-card {
+    border-radius: 1px;
+    width: 88vw;
+    height: 400px;
+    margin: 10px 20px;
+
+    display: flex;
+    flex-direction: column;
+
+    &_image img {
+      height: 280px;
+      width: 100%;
+      overflow: hidden;
+      background-size: cover;
+      border-radius: 1px 1px 0 0;
+    }
+
+    &_text {
+      padding: 7px 20px;
+      margin-top: 6px;
+      background-color: #E6EAF3;
+      text-align: center;
+
+      & p:first-child {
+        font-size: $p-size;
+        font-weight: 500;
+        color: $secondary-color;
+        margin: 0;
+      }
+
+      & p:last-child {
+        font-size: 12px;
+        font-weight: 300;
+        color: $text-color;
+      }
+
+    }
+
+  }
+
+}
