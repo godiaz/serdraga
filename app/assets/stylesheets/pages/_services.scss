@@ -5,10 +5,10 @@
     background-size: contain;
 }
 
-.mobile-text-separator {
+.services-mobile-text-separator {
     width: 85%;
     height: 20px;
-    margin-top: 80px;
+    margin-top: 20px;
     background-size: contain;
 }
 
@@ -610,13 +610,13 @@
       display: flex;
       align-items: center;
       flex-direction: column;
-      margin-top: 200px;
+      margin-top: 180px;
 
       & h1 {
         width: 88%;
         text-align: left;
         font-family: $main-font;
-        font-size: $h1-size;
+        font-size: 30px;
         color: $secondary-color;
       }
     }
@@ -646,7 +646,7 @@
 
       & h4 {
         font-family: $main-font;
-        font-size: $h4-size;
+        font-size: 16px;
         font-weight: 500;
         color: $secondary-color;
         padding-bottom: 20px;
@@ -718,7 +718,7 @@
 
       & h4 {
         font-family: $main-font;
-        font-size: $h4-size;
+        font-size: 16px;
         font-weight: 500;
         color: $secondary-color;
         padding-bottom: 20px;
