@@ -11,17 +11,31 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active home_first-slider">
-
-          <img src="https://images.pexels.com/photos/416375/pexels-photo-416375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="MOBILE-VERSION-DREDGE-1" class="hidden-sm hidden-md hidden-lg hiden-xl">
+          <h3>SOLUCIONES A CUERPOS FLUVIALES</h3>
+          <div class="home_first-slider_h4">
+            <h4>EQUIPO DE 2OTONS POR HORA</h4>
+          </div>
+          <div class="home_first-slider_p">
+            <p>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+              <br><br>
+              It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to
+            </p>
+          </div>
+          <%= link_to contact_path, class: "home_first-slider_button" do %>
+            <h5>Contactanos</h5><i class="fas fa-long-arrow-alt-right"></i>
+          <% end %>
+          <!-- <img src="https://images.pexels.com/photos/416375/pexels-photo-416375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="MOBILE-VERSION-DREDGE-1" class="hidden-sm hidden-md hidden-lg hiden-xl"> -->
         </div>
 
         <div class="item home_second-slider">
 
-          <img src="https://images.pexels.com/photos/9318/city-water-ship-cable.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="MOBILE-VERSION-DREDGE-2" class="hidden-sm hidden-md hidden-lg hiden-xl">
+          <!-- <img src="https://images.pexels.com/photos/9318/city-water-ship-cable.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="MOBILE-VERSION-DREDGE-2" class="hidden-sm hidden-md hidden-lg hiden-xl"> -->
         </div>
 
         <div class="item home_third-slider">
-          <img src="https://images.pexels.com/photos/723023/pexels-photo-723023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="MOBILE-VERSION-DREDGE-2" class="hidden-md hidden-lg hiden-xl">
+
+          <!-- <img src="https://images.pexels.com/photos/723023/pexels-photo-723023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="MOBILE-VERSION-DREDGE-2" class="hidden-md hidden-lg hiden-xl"> -->
         </div>
       </div>
 
@@ -52,10 +66,12 @@
         <div class="card_text">
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to </p>
         </div>
-        <div class="card_button">
-          <h6>Todos Los Servicios</h6>
-          <span></span>
-        </div>
+        <%= link_to services_path do %>
+          <div class="card_button">
+            <h6>Todos Los Servicios</h6>
+            <span></span>
+          </div>
+        <% end %>
       </div>
       <div class="card">
         <div class="card_title-and-image">
@@ -65,10 +81,12 @@
         <div class="card_text">
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to </p>
         </div>
-        <div class="card_button">
-          <h6>Todos Los Servicios</h6>
-          <span></span>
-        </div>
+        <%= link_to services_path do %>
+          <div class="card_button">
+            <h6>Todos Los Servicios</h6>
+            <span></span>
+          </div>
+        <% end %>
       </div>
       <div class="card">
         <div class="card_title-and-image">
@@ -78,10 +96,12 @@
         <div class="card_text">
           <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to </p>
         </div>
-        <div class="card_button">
-          <h6>Todos Los Servicios</h6>
-          <span></span>
-        </div>
+        <%= link_to services_path do %>
+          <div class="card_button">
+            <h6>Todos Los Servicios</h6>
+            <span></span>
+          </div>
+        <% end %>
       </div>
     </div>
     <%= image_tag 'text-separator.png', class: 'text-separator hidden-xs hidden-sm' %>
@@ -96,7 +116,9 @@
           <br><br>
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to.
         </p>
-        <h6 class="section-four_text_button">Ver Mas<span></span></h6>
+        <%= link_to machinery_path do %>
+          <h6 class="section-four_text_button">Ver Mas<span></span></h6>
+        <% end %>
       </div>
       <div class="section-four_card-holder_cards">
         <div class="section-four_card">
@@ -119,7 +141,7 @@
     <%= image_tag 'mobile-text-separator.png', class: 'mobile-text-separator hidden-lg hidden-md hidden-xl' %>
   </section>
   <section class="section-five">
-    <h4>Algunos Proyectos <span>(Ver todos los proyectos)</span></h4>
+    <h4>Algunos Proyectos <%= link_to projects_path do %><span>(Ver todos los proyectos)</span> <% end %></h4>
     <div id="reviews-page" class="carousel slide" data-ride="carousel">
       <!-- Indicators -->
       <ol class="carousel-indicators">
@@ -249,10 +271,12 @@
         It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters.
       </p>
       <span></span>
-      <div class="section-six_text_button">
-        <h6>Historia de Proyectos</h6>
-        <span></span>
-      </div>
+      <%= link_to projects_path do %>
+        <div class="section-six_text_button">
+          <h6>Historia de Proyectos</h6>
+          <span></span>
+        </div>
+      <% end %>
     </div>
     <div class="section-six_art">
       <%= image_tag 'polygons.png' %>
