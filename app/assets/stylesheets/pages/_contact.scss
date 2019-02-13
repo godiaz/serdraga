@@ -29,7 +29,8 @@
   }
 
   &_text {
-    width: 600px;
+    width: 550px;
+    height: 460px;
 
     & p {
       font-family: $main-font;
@@ -73,7 +74,7 @@
     }
 
     & p {
-      width: 600px;
+      width: 550px;
       font-size: $p-size;
       color: $text-color-light;
       font-family: $main-font;
