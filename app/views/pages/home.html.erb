@@ -1,58 +1,22 @@
 <div class="home">
   <section class="section-one">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-      <!-- Indicators -->
-      <ol class="carousel-indicators">
-        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-        <li data-target="#myCarousel" data-slide-to="1"></li>
-        <li data-target="#myCarousel" data-slide-to="2"></li>
-      </ol>
-
-      <!-- Wrapper for slides -->
-      <div class="carousel-inner">
-        <div class="item active home_first-slider">
-          <h3>SOLUCIONES EN OBRAS HIDRÁULICAS</h3>
-          <div class="home_first-slider_h4">
-            <h4>MAS DE 30 AÑOS DE EXPERIENCIA</h4>
-          </div>
-          <div class="home_first-slider_p">
-            <p>
-               Fundada en 1988, SDC se ha especializado en ser un proveedor de soluciones en obras hidráulicas y ambientales utilizando maquinaría propia e ingeniería, siempre siguiendo los más altos estándares de calidad.
-                <br><br>
-               Contamos con equipos propios, la experiencia y el personal idóneo para entregar soluciones de acuerdo a las necesidades de nuestros clientes/usuarios finales, cumpliendo con todas las normas de seguridad, ambientales, y de calidad vigentes.
-
-               Nos especializamos en crear proyectos llave en mano desde el diseño conceptual hasta la entrega final de la obra.
-
-               Amplio conocimiento de la industria del dragado.
-            </p>
-          </div>
-          <%= link_to contact_path, class: "home_first-slider_button" do %>
-            <h5>Contactanos</h5><i class="fas fa-long-arrow-alt-right"></i>
-          <% end %>
-          <!-- <img src="https://images.pexels.com/photos/416375/pexels-photo-416375.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="MOBILE-VERSION-DREDGE-1" class="hidden-sm hidden-md hidden-lg hiden-xl"> -->
-        </div>
-
-        <div class="item home_second-slider">
-
-          <!-- <img src="https://images.pexels.com/photos/9318/city-water-ship-cable.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="MOBILE-VERSION-DREDGE-2" class="hidden-sm hidden-md hidden-lg hiden-xl"> -->
-        </div>
-
-        <div class="item home_third-slider">
-
-          <!-- <img src="https://images.pexels.com/photos/723023/pexels-photo-723023.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="MOBILE-VERSION-DREDGE-2" class="hidden-md hidden-lg hiden-xl"> -->
-        </div>
+    <%= cl_video_tag("https://res.cloudinary.com/hoxton-digital/video/upload/v1554649646/home-video.mp4",loop: true, autoplay: true, crop: 'fill', fallback_content: "Your browser does not support HTML5 video tags.", muted: true) %>
+    <div class="item active home_first-slider">
+      <h3>SOLUCIONES EN OBRAS HIDRÁULICAS</h3>
+      <div class="home_first-slider_h4">
+        <h4>MAS DE 30 AÑOS DE EXPERIENCIA</h4>
       </div>
+      <div class="home_first-slider_p hidden-xs hidden-sm">
+        <p>
+           Fundada en 1988, SDC se ha especializado en ser un proveedor de soluciones en obras hidráulicas y ambientales utilizando maquinaría propia e ingeniería, siempre siguiendo los más altos estándares de calidad.
+            <br><br>
+           Contamos con equipos propios, la experiencia y el personal idóneo para entregar soluciones de acuerdo a las necesidades de nuestros clientes/usuarios finales, cumpliendo con todas las normas de seguridad, ambientales, y de calidad vigentes.
 
-      <!-- Left and right controls -->
-      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="right carousel-control" href="#myCarousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-        <span class="sr-only">Next</span>
-      </a>
-    </div>
+           Nos especializamos en crear proyectos llave en mano desde el diseño conceptual hasta la entrega final de la obra.
+
+           Amplio conocimiento de la industria del dragado.
+        </p>
+      </div>
   </section>
   <section class="section-two">
     <h1 class="section-two_heading">EXPERIENCÍA <span>TECONOLOGÍA</span> SOSTENIBILIDAD</h1>
@@ -131,14 +95,14 @@
           <%= image_tag 'https://s3.amazonaws.com/serdraga/DRAGA-TRIUNFO.PNG' %>
           <div class="section-four_card_text">
             <p>Dragas Hidraulicas</p>
-            <p>It is a long established fact that a reader will be.</p>
+            <!-- <p>It is a long established fact that a reader will be.</p> -->
           </div>
         </div>
         <div class="section-four_card">
           <%= image_tag 'https://s3.amazonaws.com/serdraga/DRAGA-MATILDE.PNG' %>
           <div class="section-four_card_text">
             <p>Retroescavadoras Elite</p>
-            <p>It is a long established fact that a reader will be.</p>
+            <!-- <p>It is a long established fact that a reader will be.</p> -->
           </div>
         </div>
       </div>
@@ -166,7 +130,6 @@
               </div>
               <div class="review-card_text">
                 <p class="review-card_text_header">Dragado Hidraulico</p>
-                <p>Rio Magdalena, Barranquilla, Colombia 2018 KM23</p>
               </div>
             </div>
             <div class="review-card hidden-xs hidden-sm">
@@ -175,16 +138,14 @@
               </div>
               <div class="review-card_text">
                 <p class="review-card_text_header">Dragado Hidraulico</p>
-                <p>Rio Cauca, Valle del Cauca, Colombia 2018 KM2.</p>
               </div>
             </div>
             <div class="review-card hidden-xs hidden-sm">
               <div class="review-card_image">
-                <%= image_tag 'https://images.pexels.com/photos/164037/pexels-photo-164037.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+                <%= image_tag 'proyectouno.png' %>
               </div>
               <div class="review-card_text">
-                <p class="review-card_text_header">Dragado Hidraulico</p>
-                <p>Rio Suarez, Santander, Colombia 2018 KM5.</p>
+                <p class="review-card_text_header">Limpieza de Sedimento</p>
               </div>
             </div>
           </div>
@@ -194,20 +155,18 @@
           <div class="review-page" alt="2">
             <div class="review-card">
               <div class="review-card_image">
-                <%= image_tag 'https://images.pexels.com/photos/372738/pexels-photo-372738.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+                <%= image_tag 'proyectodos.png' %>
               </div>
               <div class="review-card_text">
-                <p class="review-card_text_header">Dragado Hidraulico</p>
-                <p>Rio Magdalena, Barranquilla, Colombia 2018 KM23</p>
+                <p class="review-card_text_header">Limpieza de Sedimento</p>
               </div>
             </div>
             <div class="review-card hidden-xs hidden-sm">
               <div class="review-card_image">
-                <%= image_tag 'https://images.pexels.com/photos/1095814/pexels-photo-1095814.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+                <%= image_tag 'proyectotres.png' %>
               </div>
               <div class="review-card_text">
-                <p class="review-card_text_header">Dragado Hidraulico</p>
-                <p>Rio Cauca, Valle del Cauca, Colombia 2018 KM2</p>
+                <p class="review-card_text_header">Proteccion de Orilla</p>
               </div>
             </div>
             <div class="review-card hidden-xs hidden-sm">
@@ -215,8 +174,7 @@
                 <%= image_tag 'https://s3.amazonaws.com/serdraga/PROYECTO1.PNG.jpg' %>
               </div>
               <div class="review-card_text">
-                <p class="review-card_text_header">Dragado Hidraulico</p>
-                <p>Rio Suarez, Santander, Colombia 2018 KM5</p>
+                <p class="review-card_text_header">Proteccion de Orilla</p>
               </div>
             </div>
           </div>
@@ -226,29 +184,26 @@
           <div class="review-page" alt="3">
              <div class="review-card">
                <div class="review-card_image">
-                 <%= image_tag 'https://images.pexels.com/photos/975188/pexels-photo-975188.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+                 <%= image_tag 'proyectocuatro.png' %>
                </div>
                <div class="review-card_text">
-                <p class="review-card_text_header">Dragado Hidraulico</p>
-                <p>Rio Magdalena, Barranquilla, Colombia 2018 KM23.</p>
+                <p class="review-card_text_header">Proteccion de Orilla</p>
                </div>
              </div>
              <div class="review-card hidden-xs hidden-sm">
                <div class="review-card_image">
-                <%= image_tag 'https://images.pexels.com/photos/735790/bridge-rotterdam-erasmus-blue-735790.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+                <%= image_tag 'proyectocinco.png' %>
                </div>
                <div class="review-card_text">
-                <p class="review-card_text_header">Dragado Hidraulico</p>
-                <p>Rio Cauca, Valle del Cauca, Colombia 2018 KM2.</p>
+                <p class="review-card_text_header">Canales de Bureche</p>
                </div>
              </div>
              <div class="review-card hidden-xs hidden-sm">
                <div class="review-card_image">
-                 <%= image_tag 'https://images.pexels.com/photos/274596/pexels-photo-274596.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260' %>
+                 <%= image_tag 'proyectoseis.png' %>
                </div>
                <div class="review-card_text">
-                <p class="review-card_text_header">Dragado Hidraulico</p>
-                <p>Rio Suarez, Santander, Colombia 2018 KM5.</p>
+                <p class="review-card_text_header">Canales de Bureche</p>
                </div>
              </div>
           </div>

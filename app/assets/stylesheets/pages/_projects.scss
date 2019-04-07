@@ -93,7 +93,7 @@
   align-items: center;
   justify-content: space-between;
   background-color: white;
-  height: 720px;
+  height: 800px;
 
   &_card-holder {
     display: flex;
@@ -102,6 +102,15 @@
   }
 
   &_card-description {
+
+    & h2 {
+      font-family: $main-font;
+      font-size: 22px;
+      color: $secondary-color;
+      border-bottom: 3px solid $primary-color;
+      padding-bottom: 10px;
+    }
+
     width: 87%;
     margin: 20px 0px 100px 0px;
     text-align: left;
@@ -256,6 +265,15 @@
       }
 
       &_card-description {
+
+        & h2 {
+          font-family: $main-font;
+          font-size: 16px;
+          color: $secondary-color;
+          border-bottom: 3px solid $primary-color;
+          padding-bottom: 10px;
+        }
+
         width: 88%;
         margin: 20px 0px 100px 0px;
         text-align: left;
@@ -409,6 +427,15 @@
       }
 
       &_card-description {
+
+        & h2 {
+          font-family: $main-font;
+          font-size: 16px;
+          color: $secondary-color;
+          border-bottom: 3px solid $primary-color;
+          padding-bottom: 10px;
+        }
+
         width: 88%;
         margin: 20px 0px 100px 0px;
         text-align: left;
