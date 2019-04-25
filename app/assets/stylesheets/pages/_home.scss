@@ -42,6 +42,7 @@
   width: 100vw;
 
   &_first-slider {
+    position: relative;
 
     & h3 {
       font-family: $main-font;
@@ -53,8 +54,8 @@
       padding: 10px 10px;
       margin: 10px;
       position: absolute;
-        left: 200px;
-        top: 180px;
+        // left: 50vw;
+        bottom: 140px;
     }
 
     &_h4 {
@@ -62,11 +63,11 @@
       text-align: center;
       background-color: white;
       opacity: 0.6;
-      padding: 5px 10px;
+      padding: 1px 10px;
       margin: 10px;
       position: absolute;
-        left: 200px;
-        top: 250px;
+        // left: 10vw;
+        bottom: 60px;
     }
 
     & h4 {
@@ -158,6 +159,7 @@
     margin-top: 100px;
 
     &_first-slider {
+      position: relative;
 
       & h3 {
         font-family: $main-font;
@@ -169,8 +171,7 @@
         padding: 10px 10px;
         margin: 10px;
         position: absolute;
-          left: 160px;
-          top: 180px;
+          bottom: 140px;
       }
 
       &_h4 {
@@ -181,8 +182,7 @@
         padding: 5px 10px;
         margin: 10px;
         position: absolute;
-          left: 160px;
-          top: 260px;
+          bottom: 40px;
       }
 
       & h4 {
@@ -269,6 +269,7 @@
     overflow: hidden;
 
     & video {
+      margin-top: 30px;
       max-width: 100vw;
       min-width: 100vw;
       background-size: contain;
@@ -278,7 +279,7 @@
   .home {
 
     &_first-slider {
-
+      position: relative;
 
       & h3 {
         font-family: $main-font;
@@ -290,8 +291,7 @@
         padding: 10px 10px;
         margin: 10px;
         position: absolute;
-          left: 100px;
-          top: 200px;
+          bottom: 100px;
       }
 
       &_h4 {
@@ -302,8 +302,7 @@
         padding: 5px 10px;
         margin: 10px;
         position: absolute;
-          left: 100px;
-          top: 230px;
+          bottom: 40px;
       }
 
       & h4 {
@@ -389,6 +388,7 @@
     overflow: hidden;
 
     & video {
+      margin-top: 30px;
       max-width: 100vw;
       min-width: 100vw;
       background-size: contain;
@@ -405,39 +405,39 @@
   .home {
 
     &_first-slider {
+      position: relative;
 
       & h3 {
         font-family: $main-font;
-        font-size: 14px;
+        font-size: 9px;
         color: white;
-        width: 300px;
+        width: 200px;
         text-align: center;
         background-color: $primary-color;
-        padding: 10px 10px;
-        margin: 10px;
+        padding: 8px 5px;
+        margin: 5px 0px;
         position: absolute;
-          left: 30px;
-          top: 150px;
+          bottom: 5px;
       }
 
       &_h4 {
-        width: 250px;
+        width: 170px;
         text-align: center;
         background-color: white;
         opacity: 0.6;
-        padding: 5px 10px;
-        margin: 10px;
+        padding: 3px 5px;
+        margin: 5px 0px;
         position: absolute;
-          left: 30px;
-          top: 200px;
+          bottom: 5px;
+          right: 0;
       }
 
       & h4 {
         font-family: $main-font;
-        font-size: 13px;
+        font-size: 9px;
         // color: $text-color-dark;
         color: black;
-        margin: 5px;
+        margin: 5px 0px;
         opacity: 1.0;
       }
 
@@ -534,152 +534,3 @@
 
 }
 
-// @media only screen and (max-width: 600px) {
-
-//   .text-separator {
-//       width: 85%;
-//       height: 25px;
-//       margin-top: 80px;
-//       background-size: contain;
-//   }
-
-//   .home {
-
-//     &_first-slider {
-//       background-image:
-//       linear-gradient(
-//         rgba(0, 0, 0, 0.25),
-//         rgba(0, 0, 0, 0.15)
-//       ),
-//         url("https://images.pexels.com/photos/942507/pexels-photo-942507.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-//       height: 80vh;
-//       width: 100%;
-//       background-size: cover;
-
-//       & h3 {
-//         font-family: $main-font;
-//         font-size: 12px;
-//         color: white;
-//         width: 260px;
-//         text-align: center;
-//         background-color: $primary-color;
-//         padding: 10px 10px;
-//         margin: 10px;
-//         position: absolute;
-//           left: 15px;
-//           top: 60px;
-//       }
-
-//       &_h4 {
-//         width: 210px;
-//         text-align: center;
-//         background-color: white;
-//         opacity: 0.6;
-//         padding: 5px 10px;
-//         margin: 10px;
-//         position: absolute;
-//           left: 15px;
-//           top: 105px;
-//       }
-
-//       & h4 {
-//         font-family: $main-font;
-//         font-size: 12px;
-//         // color: $text-color-dark;
-//         color: black;
-//         margin: 5px;
-//         opacity: 1.0;
-//       }
-
-//       &_p {
-//         width: 280px;
-//         background-color: #7F7878;
-//         opacity: 0.8;
-//         padding: 10px 10px;
-//         margin: 10px;
-//         position: absolute;
-//           left: 15px;
-//           top: 150px;
-//       }
-
-//       & p {
-//         text-align: justify;
-//         font-family: $main-font;
-//         font-size: 10px;
-//         font-weight: 300;
-//         color: white;
-//         opacity: 1.0 !important;
-//       }
-
-//       &_button {
-//         width: 130px;
-//         background-color: $primary-color;
-//         color: white;
-//         font-size: 12px;
-//         padding: 7px 5px 7px 15px;
-//         font-weight: 400;
-//         align-text: left;
-//         font-family: $main-font;
-//         border-radius: 3px;
-//         position: absolute;
-//           left: 15px;
-//           top: 310px;
-//         display: flex;
-//         align-items: center;
-//         margin: 30px 10px 10px;
-
-//         & i {
-//           margin: 0 10px 0 20px;
-//           font-size: 20px;
-//         }
-
-//         & h5 {
-//           font-size: 12px;
-//           margin: 0;
-//         }
-
-//         &:hover {
-//           text-decoration: none;
-//           color: white;
-//           background-color: $primary-color-dark;
-//         }
-//       }
-//     }
-
-//     &_second-slider {
-//       background-image:
-//       linear-gradient(
-//         rgba(0, 0, 0, 0.25),
-//         rgba(0, 0, 0, 0.15)
-//       ),
-//         url("https://images.pexels.com/photos/752882/pexels-photo-752882.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-//       height: 80vh;
-//       width: 100%;
-//       background-size: cover;
-
-//     }
-
-//     &_third-slider {
-//       background-image:
-//       linear-gradient(
-//         rgba(0, 0, 0, 0.25),
-//         rgba(0, 0, 0, 0.15)
-//       ),
-//         url("https://images.pexels.com/photos/167676/pexels-photo-167676.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
-//       height: 80vh;
-//       width: 100%;
-//       background-size: cover;
-
-//     }
-
-//   }
-//   #myCarousel {
-//     height: 80vh;
-
-//     & * img {
-//       height: 90vh;
-//       background-size: cover;
-//     }
-//   }
-
-// }
