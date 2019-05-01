@@ -107,6 +107,16 @@
       width: 100%;
       margin-bottom: 40px;
     }
+
+    &_index {
+      display: flex;
+
+
+      & img {
+        width: 400px;
+        height: 300px;
+      }
+    }
   }
 
 }

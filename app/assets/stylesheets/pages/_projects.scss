@@ -87,11 +87,11 @@
 
 .project-page {
   width: 100vw;
-  padding-top: 40px;
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   background-color: white;
   height: 880px;
 
@@ -99,11 +99,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 100%;
   }
 
   &_card-description {
 
     & h2 {
+      margin-top: 20px;
       font-family: $main-font;
       font-size: 22px;
       color: $secondary-color;
@@ -112,7 +114,7 @@
     }
 
     width: 87%;
-    margin: 20px 0px 100px 0px;
+    margin: 20px 0px 20px 0px;
     text-align: left;
     font-family: $main-font;
     font-size: $p-size;
@@ -252,9 +254,9 @@
       height: 780px;
 
       &_card-holder {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        // display: flex;
+        // justify-content: space-between;
+        // align-items: center;
       }
 
       & p {
@@ -275,7 +277,7 @@
         }
 
         width: 88%;
-        margin: 20px 0px 100px 0px;
+        // margin: 20px 0px 100px 0px;
         text-align: left;
         font-family: $main-font;
         font-size: $p-size;
@@ -437,7 +439,7 @@
         }
 
         width: 88%;
-        margin: 20px 0px 100px 0px;
+        // margin: 20px 0px 100px 0px;
         text-align: left;
         font-family: $main-font;
         font-size: $p-size;
