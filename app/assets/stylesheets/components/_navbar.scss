@@ -1,3 +1,29 @@
+.logo-text {
+  color: $text-color-dark;
+  width: 300px;
+  margin: 0 20px;
+  padding-bottom: 10px;
+  border-bottom: 4px solid $primary-color;
+
+  & a:hover {
+    text-decoration: none;
+  }
+}
+
+.logo-text h4 {
+  &:hover {
+    text-decoration: none !important;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .logo-text {
+    font-size: 18px;
+    width: 220px;
+  }
+}
+
+
 /* Main navbar */
 .navbar-hoxton {
   background: white;
@@ -15,6 +41,14 @@
   height: 120px;
   padding: 5px 5px 5px 65px;
 }
+
+.navbar-hoxton-brand a {
+  &:hover {
+    text-decoration: none;
+  }
+}
+
+
 /* Right section */
 .navbar-hoxton-right {
   display: flex;
