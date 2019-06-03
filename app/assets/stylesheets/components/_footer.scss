@@ -1,6 +1,12 @@
+.hoxton-label {
+  width: 100%;
+  height: 15px;
+  background-color: $primary-color;
+}
+
 .hoxton-footer {
   width: 100%;
-  height: 430px;
+  height: 320px;
   background-color: #626262;
   position: relative;
   display: flex;
@@ -392,7 +398,7 @@
 
   .hoxton-footer {
     width: 100%;
-    height: 390px;
+    height: 410px;
     background-color: #626262;
     position: relative;
     display: flex;
@@ -524,7 +530,7 @@
 
   .hoxton-footer {
     width: 100%;
-    height: 390px;
+    height: 410px;
     background-color: #626262;
     position: relative;
     display: flex;
